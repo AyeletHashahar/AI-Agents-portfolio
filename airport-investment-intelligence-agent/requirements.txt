@@ -1,0 +1,5 @@
+requests==2.34.2
+python-dotenv==1.2.4
+openpyxl==3.1.5
+google-genai==2.28.0
+chainlit==2.12.0

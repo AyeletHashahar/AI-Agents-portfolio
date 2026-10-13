@@ -1,0 +1,40 @@
+# Chainlit configuration for the Airport Investment Intelligence Agent web chat (chat_app.py).
+# Only the settings this V1 relies on; everything else uses Chainlit's defaults.
+
+[project]
+# Chats are kept in memory only (no database): a lost connection can resume within this time.
+session_timeout = 3600
+# The Gemini key stays in the server's .env; users never provide environment variables.
+user_env = []
+
+[features]
+# Agent answers are rendered as Markdown, never as raw HTML.
+unsafe_allow_html = false
+latex = false
+# Editing an earlier message would not rewrite the Agent's conversation (turns are appended),
+# so it is disabled.
+edit_message = false
+
+[features.spontaneous_file_upload]
+    # No file uploads in V1.
+    enabled = false
+
+[features.audio]
+    enabled = false
+
+[UI]
+name = "Airport Investment Intelligence Agent"
+description = "AI-powered analysis of U.S. airports using aviation data."
+# English UI for every user, whatever the browser locale (otherwise Chainlit follows
+# navigator.language, e.g. Hebrew labels for a he-IL browser). UI text then comes from
+# .chainlit/translations/en-US.json (input placeholder and "About" label customised there) and the
+# About page from chainlit.md.
+language = "en-US"
+# Branding: public/logo_light.svg, public/logo_dark.svg, public/favicon.svg and
+# public/avatars/airport_investment_intelligence_agent.svg are picked up by Chainlit automatically.
+# Show the "Working on your question" and "Execution summary" steps (collapsed by default).
+cot = "full"
+confirm_new_chat = true
+
+[meta]
+generated_by = "2.12.0"

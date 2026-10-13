@@ -1,0 +1,40 @@
+# Environment variables / API keys
+.env
+
+# Downloaded raw data (cache; can be re-downloaded)
+data/raw/
+
+# Excel lock files
+~$*
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+# Chainlit runtime files (the app config .chainlit/config.toml, chainlit.md, public/ and the
+# customised English translation are tracked)
+.chainlit/translations/*
+!.chainlit/translations/en-US.json
+.chainlit/.langchain.db
+.files/
+
+# Live evaluation outputs (local; code and cases are tracked)
+evaluation_results/
+
+# Test / tool caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.idea/
+Thumbs.db
