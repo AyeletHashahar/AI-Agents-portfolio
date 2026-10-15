@@ -4,7 +4,7 @@ A conversational AI agent for airport investment analysis. It evaluates U.S. air
 for terminal renovation or expansion by combining public aviation data, deterministic analytics and
 LLM-driven tool orchestration, and answers with evidence, relative rankings and stated data limitations.
 
-🎥 **Demo:** [Watch the Airport Investment Intelligence Agent in action]((https://postbguacil-my.sharepoint.com/personal/ayelethc_post_bgu_ac_il/_layouts/15/stream.aspx?id=%2Fpersonal%2Fayelethc_post_bgu_ac_il%2FDocuments%2FAirport+Investment+Intelligence+Agent%2FAirport_Investment_Intelligence_Agent_Demo.mp4&ga=1&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.f925e5f7-fdf3-4f8d-931d-e92be333ae1b))
+**Demo:** [Watch the Airport Investment Intelligence Agent in action](https://postbguacil-my.sharepoint.com/personal/ayelethc_post_bgu_ac_il/_layouts/15/stream.aspx?id=%2Fpersonal%2Fayelethc_post_bgu_ac_il%2FDocuments%2FAirport+Investment+Intelligence+Agent%2FAirport_Investment_Intelligence_Agent_Demo.mp4&ga=1&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.f925e5f7-fdf3-4f8d-931d-e92be333ae1b)
 
 ![Home screen of the Airport Investment Intelligence Agent](docs/images/airport-agent-home.png)
 
